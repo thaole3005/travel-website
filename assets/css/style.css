@@ -72,6 +72,8 @@ header .nav_bar .bar_btn span {
 }
 
 /* ----SUBMENU 1---- */
+
+
 header .nav_bar .navbar_item ul.sub_nav_1 {
     display: none;
 }
@@ -93,6 +95,7 @@ header .nav_bar .navbar_item {
     position: relative;
 }
 
+
 header .nav_bar .navbar_item .nav_list_doc {
    
     min-width: 180px;
@@ -102,6 +105,8 @@ header .nav_bar .navbar_item .nav_list_doc {
     -webkit-animation: fadeIn ease-in 0.4s;
     animation: fadeIn ease-in 0.4s;
 }
+
+
 
 .nav_bar .navbar_item .sub_nav_1 {
     position: absolute;
@@ -129,11 +134,14 @@ header .nav_bar .navbar_item .nav_list_doc {
 }
 
 
-.nav_bar .navbar_item .subnav_itemt {
+.nav_bar .navbar_item .subnav_item {
     position: relative;
+    border-bottom: 1px solid #dfdedee3;
+
+    
 }
 
-.subnav_itemt--new::after, .subnav_itemt--best::after, .subnav_itemt--hot::after {
+.subnav_item--new::after, .subnav_item--best::after, .subnav_item--hot::after {
     text-transform: uppercase;
     color: var(--white-color);
     position: absolute;
@@ -146,7 +154,7 @@ header .nav_bar .navbar_item .nav_list_doc {
 }
 
 
-.nav_bar .navbar_item .subnav_itemt--hot::after {
+.nav_bar .navbar_item .subnav_item--hot::after {
     content: "HOT";
     background-color: var(--red-color);
     font-size: 12px;
@@ -171,6 +179,8 @@ header .nav_bar .navbar_item .nav_list_doc {
 header .nav_bar .navbar_item ul.sub_nav_2 {
     display: none;
 }
+
+
 
 .nav_bar .subnav_item--more ul.sub_nav_2 {
     position: absolute;
@@ -228,6 +238,8 @@ header .header_content .content_text {
     border-radius: 20px;
     color: #a3a3a3;
     cursor: pointer;
+
+    outline: none;
 }
 
 .header_content form {
