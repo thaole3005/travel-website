@@ -8,6 +8,7 @@
   --yellow-color: #ffd105;
   --purple-color: #ba71da;
   --orange-color: #f3a46b;
+  --btn-color: var(--red-color);
 
   --yellow-grad: linear-gradient(to right, #ffd205, #ff9e05);
   --blue-grad: linear-gradient(to right, #14bad4, #14d4b2);
@@ -28,6 +29,8 @@ html {
   /* font-size: 62.5%; */
   line-height: 1.6rem;
   font-family: "Poppins", sans-serif;
+
+  overflow-x: hidden;
 }
 
 body {
@@ -42,7 +45,7 @@ body {
   box-sizing: border-box;
 }
 
-ul,p {
+ul,p, h1, h2, h3, h4, h5, h6  {
   margin: 0;
 }
 
@@ -69,7 +72,37 @@ a:hover {
 
 img {
   max-width: 100%;
+  object-fit: cover;
 }
+
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0;
+}
+
+
+.title p {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.title h3 {
+  color: var(--heading-color);
+  letter-spacing:3px;
+}
+
+.title h3 span {
+  position: relative;
+}
+
+.space_30 {
+  height: 30px;
+  width: 100%;
+}
+
 
 
 
