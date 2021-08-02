@@ -9,6 +9,7 @@
   --purple-color: #ba71da;
   --orange-color: #f3a46b;
   --btn-color: var(--red-color);
+ 
 
   --yellow-grad: linear-gradient(to right, #ffd205, #ff9e05);
   --blue-grad: linear-gradient(to right, #14bad4, #14d4b2);
@@ -18,6 +19,11 @@
   --orange-grad: linear-gradient(to right, #f3a56b, #f3c76b);;
 
   --header-height: 104px;
+  --text-color-gray: #9a9a9a;
+  --text-color-black: #555555;
+
+  --pd-height-btn: 10px;
+  --pd-width-btn: 40px;
 }
 
 * {
@@ -103,7 +109,13 @@ img {
   width: 100%;
 }
 
+.my_button {
+  text-transform: uppercase;
 
+  padding: var(--pd-height-btn) var(--pd-width-btn);
+  background-color: var(--btn-color, #f76570 );
+  border-radius: 30px;
+}
 
 
 
